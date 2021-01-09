@@ -1,0 +1,15 @@
+install from https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyopengl
+pip install PyOpenGL-...whl
+
+tutorial from https://blog.csdn.net/xufive/article/details/86565130
+opengl命名格式
+<库前缀><根命令><可选参数个数><可选参数类型>
+库前缀：gl,glu,glut,aux,wgl,glx,agl
+参数类型：I:int,f:float,d:double,u:unsigned int
+核心库gl，实用库glu，实用工具库glut，辅助库aux，窗口库glx agl wgl
+gl是核心，glu是对gl的部分封装。glut是为跨平台的OpenGL程序的工具包，
+比aux功能强大。glx、agl、wgl 是针对不同窗口系统的函数。
+扩展函数库是硬件厂商为实现硬件更新利用OpenGL的扩展机制开发的函数
+
+
+
